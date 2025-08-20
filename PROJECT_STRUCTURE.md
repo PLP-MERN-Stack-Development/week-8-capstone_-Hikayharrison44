@@ -71,7 +71,7 @@ supabase/
 
 1. Install dependencies: `npm install`
 2. Start development server: `npm run dev`
-3. View the app at `http://localhost:5173`
+3. View the app at `http://localhost:8080`
 
 ## Database Schema
 

@@ -4,6 +4,6 @@ RETURNS TRIGGER AS $$
 BEGIN
   NEW.updated_at = now();
   RETURN NEW;
-END;
+END; 
 $$ LANGUAGE plpgsql SECURITY DEFINER
 SET search_path = public;
